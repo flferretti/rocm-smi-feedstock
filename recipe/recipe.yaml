@@ -25,7 +25,7 @@ requirements:
     - make
     - pkg-config
   host:
-    - rocm-core 7.1.0.*
+    - rocm-core ${{ version }}.*
     - libdrm
   run:
   run_exports:
@@ -58,3 +58,4 @@ extra:
   recipe-maintainers:
     - isuruf
     - jan-janssen
+    - conda-forge/rocm-core
